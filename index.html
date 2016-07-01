@@ -26,6 +26,15 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
+    
+    <script>
+    
+    function more() {
+    document.getElementById("testo").innerHTML = "Tecnicamente riesco a trasformare ogni web app in un'app.. gli unici ostacoli sono sul fronte ios.. non mi è difficile fare un'app per casa apple, ma lì non vi sono modi alternativi per installare un'app se non dall' app store (che costa allo sviluppatore 100€). <br> Anche il google store costa, ma come vedi non è difficile installare app in maniera alternativa. <br> Bò non so perchè cointinuo a scrivere, volevo solo provare se andava un link dinamico...;
+}
+        
+    </script>
+    
 </head>
 <body>
 
@@ -35,9 +44,9 @@
     <div class="row">
       <div class="one-half column" style="margin-top: 25%">
         <h2>CIAO indr&igrave;</h2>
-        <p>Questa è la mia prima app.. sembra quasi funzionare no? <br> l'icona è googlata a caso che non avevo voglia di farne una.. giusto per annoarti la cosa bella è che sono riuscito a fare sta app senza bisogno di usare android studio o eclipse.. é tutta programmata in html/css/javascript!!!  <br> Vabbè non voglio annoiarti.. prossima milestona fare un app con un login, a quel punto farò "yo" però per gli aperitivi friulani (avevano fatto una roba simile, beer mi pare). <br> 
+        <p id="testo">Questa è la mia prima app.. sembra quasi funzionare no? <br> l'icona è googlata a caso che non avevo voglia di farne una.. giusto per annoarti la cosa bella è che sono riuscito a fare sta app senza bisogno di usare android studio o eclipse.. é tutta programmata in html/css/javascript!!!  <br> Vabbè non voglio annoiarti.. prossima milestona fare un app con un login, a quel punto farò "yo" però per gli aperitivi friulani (avevano fatto una roba simile, beer mi pare). <br> 
         </p>
-          <a class="button button-primary" href="www.google.com">Scopri di pi&ugrave;</a>
+          <a class="button button-primary" onclick="more()">Scopri di pi&ugrave;</a>
       </div>
     </div>
   </div>
@@ -45,4 +54,6 @@
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
+    
+
 </html>
