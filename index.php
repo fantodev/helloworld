@@ -46,7 +46,20 @@
         
     <pre id="output"></pre>
 
-      
+     <?php
+$servername = "sql7.freemysqlhosting.net";
+$username = "sql7126177";
+$password = "nx9iUH6zIm";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+} 
+echo "Connected successfully";
+?> 
       
     </div>
   </div>
